@@ -37,3 +37,10 @@ You can run your infrastructure using:
 ```shell script
 docker-compose up -d
 ```
+
+## Display JVM (Micrometer) dashboard:
+
+After running Prometheus and Graphana, configure Prometheus as one of Graphana's data sources and import the following dashboard:
+https://grafana.com/grafana/dashboards/4701
+
+<p align="center"><img width="100%" src="https://lh3.googleusercontent.com/n65r0I_9jAVs73mLoNh9MLK8rPtyUkH7sP0RelC86aZpiZrHwr9SHc-6azGxiAkHCyns-cQuLR45UpNqUvxMyuXs50wI0gXxMasFQnfUPk8DWUErWAJSEEo43NJe8-y5_ex8YNJt0w=w2400?source=screenshot.guru"/></p>
