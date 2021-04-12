@@ -53,6 +53,12 @@
             <artifactId>quarkus-arc</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-micrometer-registry-prometheus -->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-micrometer-registry-prometheus</artifactId>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
